@@ -77,7 +77,7 @@
                     <th>{{ $b->title }}</th>
                     <th>{{ $b->category }}</th>
                     <th>{{ $b->author }}</th>
-                    <th>{{ $b->rating }}</th>
+                    <th>{{ round($b->rating, 2)  }}</th>
                     <th>{{ $b->voters }}</th>
                 </tr>
             @endforeach

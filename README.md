@@ -1,6 +1,12 @@
 ## ABOUT THIS PROJECT ##
 This project built with laravel 8.x 
-After running composer install and setting env, run php artisan migrate:fresh --seeder
+
+How to run: 
+After pull/clone, run:
+```
+composer install
+php artisan migrate:fresh --seeder
+```
 Limitation: 
 - No specific styling was added
 - No specific query used for making seed and factory for relational database

@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/main/');
 });
 
 Route::resource('main', 'App\Http\Controllers\mainController');

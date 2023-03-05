@@ -18,12 +18,13 @@
 <body>
 
     <h1>Top 10 Most Famous Author</h1>
+    <a href="/">back</a>
     <table>
         <thead>
             <tr>
                 <th>No</th>
                 <th>Name</th>
-                <th>Voter</th>
+                <th>Voters</th>
             </tr>
         </thead>
 

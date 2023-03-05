@@ -13,7 +13,7 @@ class otherController extends Controller
     public function search(Request $request)
     {
         $keyword = $request->search;
-        $items = $request->items ? $request->items : 25;
+        $items = $request->items ? $request->items : 10;
 
         $bookList = DB::table("reviews")
         ->selectRaw('books.name as title, authors.name as author, categories.category as category, avg(reviews.rating) as rating, count(reviews.rating) as voters')
